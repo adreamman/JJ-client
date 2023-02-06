@@ -1,0 +1,32 @@
+cookie名:japanese_jobs_client
+
+172.17.8.160:8030
+
+1.企业职位简历统计: /positioncount
+入参:
+出参:
+{
+    "code": 200,
+    "data": {
+        "clientName": "djc jack",
+        "companyLogo": "https://japanease-jobs-dev.s3.ap-southeast-1.amazonaws.com/uploads/company_entity/default_company_image/97/f3e2c33c24e4ffe2d2790221f2513e2d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS5GZ4XKSQ77EEIQ%2F20230206%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20230206T085604Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=202e93dd84d994ef5e89f4530c835446cb6c2c94436c38f79a14a1bb55660dd0", //企业logo图标
+        "company_entity_id": 97,
+        "company_id": 96,
+        "company_image": "/assets/common/icon_profile01.jpg",
+        "company_type": 0,
+        "current_sign_in_at": "2023-02-03T09:49:40.678561Z",//登录时间
+        "default_company_image": "f3e2c33c24e4ffe2d2790221f2513e2d.jpg",
+        "email": "it_dou@163.com",
+        "first_name": "djc",
+        "international_phone_number": "86",
+        "last_name": "jack",
+        "official_name": "宇才网络科技aa",//公司名
+        "open_id": "odiGvswAaCEyquB5oJN803O7wvF8",
+        "phone_number": "02-7545-4565",
+        "pickedCustomers": 0,//简历收藏
+        "positionCount": 1,//在招职位
+        "proxy_company": true, //代理登录
+        "untreatedApplication": 51//待处理应聘
+    },
+    "message": "ok"
+}
